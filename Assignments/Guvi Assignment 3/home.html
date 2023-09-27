@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var xhr = new XMLHttpRequest();
+
+        xhr.open("GET", "https://restcountries.com/v3.1/all", true)
+
+        xhr.send()
+
+        xhr.onload = function() {
+            if(xhr.status != 200){
+                console.log("Not Found ")
+            }
+            else {
+                    var countryDetails = JSON.parse(xhr.responseText);
+                    // console.log(countryDetails)
+                    for(let i=0;i<countryDetails.length;i++) {
+                        console.log(countryDetails[i].flags)
+                        console.log(countryDetails[i].name.common)
+                        console.log(countryDetails[i].region)
+                        console.log(countryDetails[i].subregion)
+                        console.log(countryDetails[i].population)
+                    }
+                    
+            }
+
+            }
+    </script>
+    
+</body>
+
+</html>
