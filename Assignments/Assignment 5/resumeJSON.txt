@@ -1,0 +1,35 @@
+const resume = { 
+  "name": "Vivekanandan",
+  "title": "Software Developer",
+  "experience": [
+    {
+      "position": "Software Engineer",
+      "company": "SOftware Company",
+      "duration": "2022-2023",
+      "responsibilities": [
+        "Developed and maintained web applications",
+        "Collaborated with cross-functional teams",
+        "Participated in code reviews and provided constructive feedback"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Information Technology",
+      "institution": "University of XYZ",
+      "year": "2022"
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "HTML",
+    "CSS",
+    "SQL"
+  ],
+  "languages": [
+    "English (Fluent)",
+    "French (Beginner)"
+  ]
+}
