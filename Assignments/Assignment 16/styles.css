@@ -1,0 +1,20 @@
+body,
+html {
+  /* background-image: url("./indianFlag.jpg"); */
+  height: 100%;
+  object-fit: cover;
+}
+
+#timer {
+  color: limegreen;
+  font-weight: bolder;
+  font-size: 100px;
+  text-decoration: wavy;
+}
+
+#myText {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
