@@ -1,0 +1,11 @@
+.border {
+    border: 1px solid black;
+}
+
+.box {
+
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #909090;
+}
